@@ -6,7 +6,7 @@ from evaluate_test import evaluate_model, predict_class, save_model, load_model
 def main():
     data_dir = 'data'
     model_path = './models/imageclassifier.h5'
-    test_image_path = '154006829.jpg'
+    test_image_path = 'happygroup.jpg'
 
     # preprocess and visualize data
     train, val, test = preprocess_data(data_dir)
