@@ -25,7 +25,7 @@ To use this project, follow these steps:
 pip install tensorflow opencv-python-headless matplotlib numpy
 ```  
 3. Place your image data in a directory named 'data'. The images should be divided into two subdirectories, one for each class ('Happy' and 'Sad').   
-   I would say the pic and spec of the imgs don't matter in this project since we are rescaling it during preprocessing.  
+   I would say the pic and spec of the imgs don't matter in this project since we are rescaling it during preprocessing. Just make sure you have alot of pics, I meant ALOT!    
 
 5. Run the main.py script with:
 ```bash
